@@ -1,6 +1,16 @@
 console.log("JS file is connected to HTML! Woo!")
 
-var cardOne = "King";
-var cardTwo = "King";
-var cardThree = "Queen";
-var cardFour = "Queen";
+var cardOne = "Queen";
+var cardTwo = "Queen";
+var cardThree = "King";
+var cardFour = "King";
+
+if (cardOne === cardTwo) 
+{
+	alert("You found a match!");
+}
+
+else{
+	alert("Sorry, try again!");
+}
+
